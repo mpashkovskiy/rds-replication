@@ -1,0 +1,17 @@
+{
+  "name": "rds-replication",
+  "version": "0.1.0",
+  "bin": {
+    "rds-replication": "bin/rds-replication.js"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.31.1",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.31.1",
+    "aws-lambda-ric": "^2.0.0",
+    "constructs": "^10.0.0",
+    "pgwire": "^0.6.0"
+  }
+}
